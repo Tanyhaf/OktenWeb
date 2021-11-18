@@ -30,7 +30,7 @@ function pText(text){
 function ul3li(li){
     document.write(`<ul>`)
     for (let i = 0; i < 3; i++) {
-        document.write(`<li>${li}</li>.`)
+        document.write(`<li>${li}</li>`)
     }
     document.write(`</ul>`)
 }
@@ -38,7 +38,7 @@ function ul3li(li){
 function ulli(li, number){
     document.write(`<ul>`)
     for (let i = 0; i < number; i++) {
-        document.write(`<li>${li}</li>.`)
+        document.write(`<li>${li}</li>`)
     }
     document.write(`</ul>`)
 }
@@ -46,7 +46,7 @@ function ulli(li, number){
 function arraylist(arr){
     document.write(`<ul>`)
     for (let i = 0; i < arr.length; i++) {
-        document.write(`<li>${arr[i]}</li>.`)
+        document.write(`<li>${arr[i]}</li>`)
     }
     document.write(`</ul>`)
 }
@@ -54,4 +54,14 @@ function userObject(user){
     for (const i of user) {
         document.write(`<div>${i.id}.${i.name} - ${i.age}</div>`);
     }}
-
+let newArray = [7,5,8,'true',true, false, 4, 'dfgh']
+let arrayuser = [{id:1, name:'Vasia', age:45},{id:2, name:'Vika', age:56},{id:3, name:'Lilia', age:15}]
+squareRectangle(6,4);
+squareCircle(6);
+squareCylinder(45,5);
+array(newArray);
+pText('Мовлення як вид людської діяльності завжди зорієнтоване на виконання певного комунікативного завдання. Висловлюючи думки і почуття, людина ставить конкретну мету — щось повідомити, про щось переконати тощо. Існує багато визначень тексту. Наведемо окремі з них.є');
+ul3li('Мовлення як вид людської діяльності завжди зорієнтоване');
+ulli('one,two,three,four',5);
+arraylist(newArray);
+userObject(arrayuser);
