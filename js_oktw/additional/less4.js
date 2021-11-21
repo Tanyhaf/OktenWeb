@@ -16,9 +16,9 @@ let users = [
 // - створити функцію, яка якщо приймає один аргумент, просто вивдоить його, якщо два аргументи - складає або конкатенує їх між собою.
 function arg(a,b){
     if (b === undefined){
-        console.log(a)
+        console.log(a);
     }else{
-        console.log(a+b)
+        console.log(a+b);
     }
 }
 // - створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
@@ -28,7 +28,7 @@ function arg(a,b){
 // результат
 //     [3,5,7,9]
 function sunArray(arr1, arr2){
-    let sumArr=[]
+    let sumArr=[];
     for (const i in arr1) {
         for (const j in arr2) {
             if (i===j){
@@ -36,7 +36,7 @@ function sunArray(arr1, arr2){
             }
         }
     }
-    console.log(sumArr)
+    console.log(sumArr);
 }
 //sunArray(newArray1,newArray2)
 //arg(3,6)
@@ -44,13 +44,13 @@ function sunArray(arr1, arr2){
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
 function masObject(mas){
-    let newarray=[]
+    let newarray=[];
     for (const i in mas) {
         for (const iKey in mas[i]) {
-            newarray.push(iKey)
+            newarray.push(iKey);
         }
     }
-    return newarray
+    return newarray;
 }
 // console.log(masObject(users))
 //masObject(users)
@@ -58,12 +58,12 @@ function masObject(mas){
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
 function arrayValous(mas){
-    let array=[]
+    let array=[];
     for (const i in mas) {
         for (const iKey in mas[i]) {
-            array.push(mas[i][iKey])
+            array.push(mas[i][iKey]);
         }
     }
-    return array
+    return array;
 }
-console.log(arrayValous(users))
+console.log(arrayValous(users));
