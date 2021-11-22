@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <style>
-
+    .wrap{display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;}
   </style>
 </head>
 <body>
@@ -636,7 +638,7 @@
   for (const i in users) {
     template1+=`<div class ="post-card">
            <h3>${users[i]['id']} - ${users[i]["title"]}</h3>
-           <p>${users[i]["body"]}</p>`
+           <p>${users[i]["body"]}</p> </div>`
   }
   document.write(`<div class ="wrap">`);
   document.write(template1);
