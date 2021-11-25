@@ -39,7 +39,7 @@ let maxArray=(arr)=> {
             max = arr[i]
         }
     }
-    return max
+    return max;
 }
 
 let minArray=(arr)=> {
@@ -49,7 +49,7 @@ let minArray=(arr)=> {
             min = arr[i]
         }
     }
-    return min
+    return min;
 }
 
 let sumArray=(arr)=>{
@@ -67,7 +67,7 @@ let middleNumber=(arr)=>{
         sum=(sum+arr[i])
     }
     ser = sum/arr.length;
-    return ser
+    return ser;
 }
 
 
@@ -81,7 +81,7 @@ let randomizer=(n)=>{
     for (let i = 0; i  < n ; i++) {
         randomArray[i] = Math.round(Math.random()*100);
     }
-    console.log(randomArray)
+    console.log(randomArray);
 }
 
 let returnArray=(arr)=>{
@@ -89,15 +89,15 @@ let returnArray=(arr)=>{
     for (let i = arr.length-1, j=0; i > 0 ; i--, j++) {
         returnArr[j]=arr[i]
     }
-    console.log(returnArr)
+    console.log(returnArr);
 }
 
 // minNumber(3,1,2);
 // maxMumber(5,3,2);
 // sumArray(newArray);
 // middleNumber(newArray);
-//randomizer(5)
+//randomizer(5);
 // console.log(maxArray(newArray));
 // console.log(minNumber(newArray));
 //console.log(returnMinMax(newArray));
-//returnArray(newArray)
+//returnArray(newArray);
