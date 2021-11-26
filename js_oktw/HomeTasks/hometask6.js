@@ -23,9 +23,9 @@
         // console.log(jscup.toLowerCase());
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
-        // let str = ' dirty string   '
-        //
-        // console.log(str.replaceAll(' ',''))
+//         let str = ' dirty string   '
+//
+//         console.log(str.trim())
 
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
         // let str2 = 'Каждый охотник желает знать';
@@ -61,12 +61,12 @@
         // }
         // console.log(toUpperCaseFirst(str));
 // - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
-        //  let text = 'каждый охотник желает знать';
-        //
-        //          let capitalize = (str) => {
-        //              return str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
-        //
-        //          }
-        //
-        //
-        // console.log(capitalize(text))
+//          let text = 'каждый охотник желает знать';
+//
+//                  let capitalize = (str) => {
+//                      return str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
+//
+//                  }
+//
+//
+//         console.log(capitalize(text))
